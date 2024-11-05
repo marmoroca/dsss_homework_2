@@ -8,8 +8,8 @@ def create_random_number(min, max):
     
     This function creates a random integer between the given minimum and maximum values.
 
-        min: The minimum integer value.
-        max: The maximum integer value.
+        min: The minimum integer value
+        max: The maximum integer value
 
     It returns a random integer between `min` and `max'.
     """
@@ -29,9 +29,9 @@ def solve_math_problem(n1, n2, o):
     """
     This function creates a math problem string and calculates the correct answer.
 
-        n1: The first operand.
-        n2: The second operand.
-        o: The arithmetic operator.
+        n1: The first operand
+        n2: The second operand
+        o: The arithmetic operator
         p: problem 
         a: answer
 
