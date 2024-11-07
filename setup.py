@@ -9,6 +9,11 @@ setup(
     packages=find_packages(),
     install_requires=[
         # dependencies from requirements.txt
-    ]
+    ],
+    entry_points={
+        "console_scripts": [
+            "math_quiz=math_quiz.math_quiz:math_quiz_game", 
+        ],
+    },
     
 )
